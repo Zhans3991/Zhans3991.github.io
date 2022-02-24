@@ -1,0 +1,46 @@
+.primary {
+    color:rgb(17, 131, 93)
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    /* 代表上下 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    /* display - flex 彈性容器 flex-warp超過換行 */
+}
+
+.intro-block .row {
+    align-items: center;
+}
+
+.avatar {
+    width: 20%;
+}
+.avatar img {
+    width: 80%;
+    border-radius: 50%; 
+    /* border切圓角 */
+    
+}
+.content {
+    width: 80%;
+}
+
+.contact-me ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me>ul li {
+    display: inline;
+    padding: 0 5px;
+}
+.contact-me a {
+    text-decoration: none;
+}
+/* >指定 padding只有兩個數字就是 上下＋左右*/
